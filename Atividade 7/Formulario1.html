@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 1</title>
+</head>
+<body>
+    <h1>Formulario HTML</h1>
+    <form action="enviar.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Digite seus dados</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" size="15" maxlength="40" placeholder="Digite seu nome">
+            <br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" size="15" placeholder="Digite seu e-mail">
+            <br><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" size="15" placeholder="Digite seu telefone">
+            <br><br>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" size="15" placeholder="Digite sua senha" maxlength="40">
+            <br><br>
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" name="data" id="data" size="15">
+            <br><br>
+            <label for="Musical">Gênero Musical Favorito:</label><br>
+            <input type="checkbox" name="Axe" id="Axe">
+            <label for="Axe">Axé</label>
+            <br>
+            <input type="checkbox" name="pop" id="pop">
+            <label for="pop">Pop</label>
+            <br>
+            <input type="checkbox" name="celta" id="celta">
+            <label for="celta">Celta</label>
+            <br>
+            <input type="checkbox" name="rock" id="rock">
+            <label for="rock">Rock</label>
+            <br>
+            <input type="checkbox" name="samba" id="samba">
+            <label for="samba">Samba</label>
+            <br>
+            <input type="checkbox" name="pagode" id="pagode">
+            <label for="pagode">Pagode</label>
+            <br>
+            <input type="checkbox" name="sertanejo" id="sertanejo">
+            <label for="sertanejo">Sertanejo</label>
+            <br>
+            <input type="checkbox" name="eletronica" id="eletronica">
+            <label for="eletronica">Eletronica</label>
+            <br><br>
+            <label for="enquete">Receber notícias por E-mail:</label>
+            <input type="radio" name="enquete" id="sim">
+            <label for="sim">SIM</label>
+            <input type="radio" name="enquete" id="nao">
+            <label for="nao">NÃO</label>
+            <br><br>
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+                <option value=""select>-- Selecione --</option>
+                <option value="sao paulo">São Paulo</option>
+                <option value="rio de janeiro">Rio de Janeiro</option>
+                <option value="minas gerais">Minas Gerais</option>
+                <option value="bahia">Bahia</option>
+                <option value="goias">Goiás</option>
+                <option value="mato grosso">Mato Grosso</option>
+            </select>
+            <br><br>
+             <label for="comentario">Comentário</label>
+             <br>
+             <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+             <br><br> 
+            <input type="submit" value="Enviar" id="enviar" name="enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+</html>
