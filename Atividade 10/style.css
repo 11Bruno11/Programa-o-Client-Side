@@ -1,0 +1,25 @@
+.cabeçalho {
+background-color: #5dbfa7;
+font-family: Courier;
+color: #ffff;
+text-align: center;
+font-size: 50px;
+height: 400px;
+}
+
+.rodape {
+background-color: #5dbfa7;
+font-family: Courier;
+font-size: 12px;
+text-align: right;
+color: #ffff;
+height: 100px;
+}
+
+p {
+    font-family: Courier;
+}
+
+h1 {
+    font-family: Courier;
+}
