@@ -23,3 +23,8 @@ p {
 h1 {
     font-family: Courier;
 }
+
+*{
+    margin:0px;
+    padding:0px;
+    }
