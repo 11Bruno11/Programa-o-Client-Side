@@ -112,8 +112,12 @@ main {
     -webkit-box-shadow: 5px 6px 8px rgba(20, 20, 20, 0.7);
     border-style: solid;
     border-width: 2px;
-    display: flex;
 }
+
+.flax {
+display: flex;
+}
+
 .texto {
     background-color: rgba(123, 200, 240, 0.6);
     margin-top: 10px;
@@ -127,7 +131,6 @@ main {
     -webkit-box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.7);
     border-style:dotted;
     border-width: 2px;
-    height: 300px;
 }
 
 #separa {

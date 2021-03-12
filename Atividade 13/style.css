@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    font-size: 1rem;
+    background-image: url(IMG/Banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: nowrap;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0%;
+    margin: auto;
+    width: 90%;
+    height: 95vh;
+}
+
+#home {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    width: 500px;
+    font-size: 2rem;
+    margin-bottom: 45px;
+}
+
+a:visited {
+    color: #221C0E;
+
+}
+
+a:hover {
+    color: rgb(240, 240, 240);
+}
+
+a:hover::after {
+    content: "";
+    display: block;
+    width: px;
+    height: 1px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
+a {
+    color: #221C0E;
+    text-decoration: none;
+    transition: color 0.5s ease-in;
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0%;
+    margin: auto;
+    width: 90%;
+    height: 95vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.info img {
+border-radius: 20px;
+}
+
+.info h2 {
+width: 12.5em;
+text-align: center;
+}
+
+.quemsomos h2 {
+    font-size: 3em;
+    margin-bottom: 0.6em;
+    margin-top: 3em;
+}
+
+.quemsomos p {
+    font-size: 30px;
+}
+
+.quemsomos li {
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-top: 6em;
+}
+
+footer .cont {
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+
+footer .cont li {
+padding: 0 30 px;
+text-align: center;
+}
+
+footer .cont li i{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+
