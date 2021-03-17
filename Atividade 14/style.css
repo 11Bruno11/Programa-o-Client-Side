@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: aqua;
+    border: solid 1px black;
+    width: 100%;
+    height: 90px;
+}
+
+.conteudo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.texto {
+    background-color: blue;
+    border: solid 1px black;
+    width: 800px;
+    display: flex;
+}
+
+.lateral {
+    background-color: brown;
+    border: solid 1px black;
+    width: 300px;
+    display: flex;
+}
+
+.rodape {
+    background-color: green;
+    border: solid 1px black;
+    width: 100%;
+    height: 109px;
+}
+
+@media only screen and (max-width: 550px) {
+    .conteudo {flex-wrap: wrap;}
+<<<<<<< HEAD
+}
+=======
+    }
+>>>>>>> 22b2ba44e524217ecafc2ac1abb397cf0938965c
