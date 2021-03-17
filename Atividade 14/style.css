@@ -47,4 +47,6 @@
 @media only screen and (max-width: 550px) {
     .conteudo {flex-wrap: wrap;}
     .lateral {margin-top: 10px;}
+    .texto {margin-left: 20px;}
+    .texto {margin-right: 20px;}
 }
