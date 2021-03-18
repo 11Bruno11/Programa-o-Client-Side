@@ -23,8 +23,10 @@
 
 .atividades {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .atividades a { 
