@@ -107,6 +107,10 @@
     background-color: #012a4a;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1275px) {
     .atividades a {width: 400px;}
+}
+
+@media only screen and (max-width: 640px) {
+    .atividades a {width: 350px;}
 }
