@@ -44,7 +44,7 @@ font-weight: bold;
 }
 @media only screen and (max-width: 800px) {
     #home {flex-direction: column; padding: 0px;justify-content: space-evenly;}
-    .nav ul li {font-size: 18px; margin-left: 15px;}
+    .nav ul li {font-size: 18px; margin-left: 10px;}
 }
 
 #home a:visited {
