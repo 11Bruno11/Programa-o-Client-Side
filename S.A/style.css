@@ -44,7 +44,7 @@ font-weight: bold;
 }
 @media only screen and (max-width: 800px) {
     #home {flex-direction: column; padding: 0px;justify-content: space-evenly;}
-    .nav ul li {font-size: 18px; margin-left: 18px;}
+    .nav ul li {font-size: 18px; margin-left: 15px;}
 }
 
 #home a:visited {
@@ -178,9 +178,6 @@ font-weight: bold;
 /* Home */
 .grid2 {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 0%;
     margin: auto;
     width: 90%;
     height: 60vh;
