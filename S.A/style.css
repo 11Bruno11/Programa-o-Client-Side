@@ -44,7 +44,7 @@ font-weight: bold;
 }
 @media only screen and (max-width: 800px) {
     #home {flex-direction: column; padding: 0px;justify-content: space-evenly;}
-    .nav ul li {font-size: 18px; margin-left: 10px;}
+    .nav ul li {font-size: 18px; margin-left: 12px;}
 }
 
 #home a:visited {
@@ -81,6 +81,11 @@ font-weight: bold;
     padding: 30px;
 }
 
+@media only screen and (max-width: 800px) {
+    #empresa {flex-direction: column; padding: 0px;justify-content: space-evenly;}
+    .nav ul li {font-size: 18px; margin-left: 12px;}
+}
+
 #empresa a:visited {
     color: aqua;
 
@@ -113,6 +118,11 @@ font-weight: bold;
     display: flex;
     justify-content: space-between;
     padding: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    #produto {flex-direction: column; padding: 0px;justify-content: space-evenly;}
+    .nav ul li {font-size: 18px; margin-left: 12px;}
 }
 
 #produto a:visited {
@@ -149,6 +159,11 @@ font-weight: bold;
     padding: 30px;
 }
 
+@media only screen and (max-width: 800px) {
+    #contato {flex-direction: column; padding: 0px;justify-content: space-evenly;}
+    .nav ul li {font-size: 18px; margin-left: 12px;}
+}
+
 #contato a:visited {
     color: aqua;
 
@@ -181,6 +196,11 @@ font-weight: bold;
     display: flex;
     justify-content: space-between;
     padding: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    #itens {flex-direction: column; padding: 0px;justify-content: space-evenly;}
+    .nav ul li {font-size: 18px; margin-left: 12px;}
 }
 
 #itens a:visited {
@@ -402,6 +422,10 @@ input {
     margin-left: 160px;
 }
 
+@media only screen and (max-width: 800px) {
+    #formulario {margin-right: 30px; margin-left: 30px;}
+}
+
 /* Itens */
 
 .item {
@@ -477,4 +501,9 @@ input {
 .modelo {
     text-align: justify;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    #imgs {width: 300px; height: 200px;}
+    .imagem01 {margin-top: 40px; margin-bottom: 30px;}
 }
