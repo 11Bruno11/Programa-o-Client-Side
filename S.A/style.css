@@ -44,7 +44,7 @@ font-weight: bold;
 }
 @media only screen and (max-width: 800px) {
     #home {flex-direction: column; padding: 0px;justify-content: space-evenly;}
-    .nav ul li {font-size: 18px; margin-left: 20px;}
+    .nav ul li {font-size: 18px; margin-left: 18px;}
 }
 
 #home a:visited {
@@ -194,13 +194,13 @@ font-weight: bold;
 }
 
 .paragrafo h1 {
-    margin-bottom: 2rem;
-    font-size: 3rem;
+    margin-bottom: 30px;
+    font-size: 40px;
 }
 
 .paragrafo p {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .banner {
