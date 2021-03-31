@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixação 01</title>
+</head>
+<body>
+    <h1 id="titulo">Título</h1>
+    <button class="aumentar" onclick="aumentar()">Aumentar fonte</button>
+    <button class="cor" onclick="cor()">Mudar a cor</button>
+    <button class="background" onclick="background()">Mudar o fundo</button>
+
+    <script>
+        function aumentar() {
+            document.querySelector("#titulo").style.fontSize = "60px";
+        }
+        function cor() {
+            document.querySelector("#titulo").style.color = "blue";
+        }
+        function background() {
+            document.body.style.background = "aqua";
+        }
+    </script>
+</body>
+</html>
