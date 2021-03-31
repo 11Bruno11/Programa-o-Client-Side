@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Paciente</title>
+    <style>
+        #resultado {
+            margin-top: 20px;
+            font-size: 30px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Monitoramento de Paciente</h1>
+    <button onclick="chamar()">Chamar</button> <input type="range" min="0" max="10" id="nivel">
+    <div id ="resultado"></div>
+
+    <script>
+        function chamar() {
+            let dor = parseInt(document.getElementById("nivel").value);
+            let resultado = document.getElementById("resultado")
+
+            if (dor <= 0) {
+                resultado.innerHTML = ("Quarto Chamando")
+                document.body.style.backgroundColor = "#ffff"
+                document.querySelector("h1").style.color = "black"
+                document.querySelector("#resultado").style.color = "black"
+            }
+            else if (dor >0 && dor <=3) {
+                resultado.innerHTML = ("Técnico de Enfermagem")
+                document.body.style.backgroundColor = "yellow"
+                document.querySelector("h1").style.color = "black"
+                document.querySelector("#resultado").style.color = "black"
+            }
+            else if (dor >3 && dor <=8) {
+                resultado.innerHTML = ("Enfermeira")
+                document.body.style.backgroundColor = "red"
+                document.querySelector("h1").style.color = "#ffff"
+                document.querySelector("#resultado").style.color = "#ffff"
+            }
+
+            else if (dor > 8) {
+                resultado.innerHTML = ("Médico")
+                document.body.style.backgroundColor = "black"
+                document.querySelector("h1").style.color = "#ffff"
+                document.querySelector("#resultado").style.color = "#ffff"
+            }
+        }
+    </script>
+</body>
+</html>
