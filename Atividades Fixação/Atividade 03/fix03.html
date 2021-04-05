@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixação 03</title>
+</head>
+<body>
+    <form action="envia.php">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" >
+        <br><br>
+        <label for="numero">Telefone:</label>
+        <input type="tel" name="numero" id="numero">
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <input type="submit" value="Cadastrar" onclick="return validacao()">
+    </form>
+    <div id="valor"></div>
+    <script>
+        function validacao() {
+            let nome = document.querySelector("#nome").value;
+            let numero = document.querySelector("#numero").value;
+            let email = document.querySelector("#email").value;
+
+            if (nome == "" || numero == "" || email == ""){
+                alert("Campo obrigatório")
+                return false
+            }            
+        }
+    </script>
+</body>
+</html>
