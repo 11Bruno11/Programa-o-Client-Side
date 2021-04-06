@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 22</title>
+</head>
+<body>
+    <form action="enviar.php" method="get">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required> 
+        <p id="msg1"></p>
+
+        <label for="numero">Número:</label>
+        <input type="tel" id="numero" required>
+        <p id="msg2"></p>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+        <p id="msg3"></p>
+
+        <button onclick="return enviar()">Enviar</button>
+    </form>
+
+    <script>
+        function enviar(){
+            var nome = document.getElementById("nome");
+            var numero = document.getElementById("numero");
+            var email = document.getElementById("email");
+
+            if (!nome.checkValidity()) {
+                document.getElementsById("msg1").innerHTML = nome.validationMessage;
+            }
+            else {
+                document.getElementById("msg1").innerHTML = "O nome inserido é valido."
+            }
+
+            if (!numero.checkValidity()) {
+                document.getElementsById("msg2").innerHTML = numero.validationMessage;
+            }
+            else {
+                document.getElementById("msg2").innerHTML = "O numero inserido é valido."
+            }
+
+            if (!email.checkValidity()) {
+                document.getElementsById("msg1").innerHTML = email.validationMessage;
+            }
+            else {
+                document.getElementById("msg1").innerHTML = "O email inserido é valido."
+            }
+        }
+    </script>
+</body>
+</html>
