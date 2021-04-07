@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 200px;
+        }
+
+        #quadrado {
+            margin-top: 30px;
+            width: 100px;
+            height: 100px;
+        }
+
+        input {
+            margin: 10px;
+            display: flex;
+            text-align: center;
+        }
+
+        label {
+            font-size: 25px;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body onload="cores()">
+    <h2>Calculadora de Cores</h2>
+    <label for="red">Vermelho</label>
+    <input type="range" name="vermelho" id="vermelho" onchange="juncao()" value="150" min="0" max="255">
+    <input type="text" id="valor1" disabled size="3">
+    <br>
+    <label for="verde">Verde</label>
+    <input type="range" name="verde" id="verde" onchange="juncao()" value="150" min="0" max="255">
+    <input type="text" id="valor2" disabled size="3">
+    <br>
+    <label for="verde">Azul</label>
+    <input type="range" name="azul" id="azul" onchange="juncao()" value="150" min="0" max="255">
+    <input type="text" id="bValor" disabled size="3">
+
+    <div id="quadrado"></div>
+
+    <script>
+        function juncao() {
+           let vermelho = parseInt(document.querySelector("#vermelho").value);
+           document.querySelector("#valor1").value = vermelho;
+
+           let verde = parseInt(document.querySelector("#verde").value);
+           document.querySelector("#valor2").value = verde;
+
+           let azul = parseInt(document.querySelector("#azul").value);
+           document.querySelector("#bValor").value = azul;
+
+           document.querySelector("#quadrado").style.background = `rgb(${vermelho},${verde},${azul})`
+        }
+    </script>
+</body>
+</html>
