@@ -1,0 +1,59 @@
+{
+	"products" : [
+		{
+			"name" : "Bermuda Preta",
+			"price" : "R$ 125.00",
+			"options" : [
+				{ "Tamanho" : "Pequeno,Medio,Grande" }
+			],
+			"image" : "https://orbsupply.com.br/wp-content/uploads/2020/10/Photo-Sep-01-5-55-08-PM-247x329.jpg",
+			"description" : "Bermuda muito confortável, de elástico, ótimo para ficar em casa."
+		},
+		{
+			"name" : "Bermuda Branca",
+			"price" : "R$ 120.99",
+			"options" : [
+				{ "Tamanho" : "Pequeno,Medio,Grande" }
+			],
+			"image" : "https://orbsupply.com.br/wp-content/uploads/2021/02/orb-23-247x329.jpg",
+			"description" : "Bermuda branca, confortavel para o dia a dia."
+		},
+		{
+			"name" : "Bermuda Cinza",
+			"price" : "R$ 135.99",
+			"options" : [
+				{ "Tamanho" : "Pequeno,Medio,Grande" }
+			],
+			"image" : "https://orbsupply.com.br/wp-content/uploads/2021/02/orb-20-scaled.jpg",
+			"description" : "Essa bermuda cinza é ajustavel, ótima para varias ocasiões."
+		},
+		{
+			"name" : "Blusa Simples Branca",
+			"price" : "R$ 175.99",
+			"options" : [
+				{ "Tamanho" : "Pequeno,Medio,Grande" }
+			],
+			"image" : "https://orbsupply.com.br/wp-content/uploads/2021/02/orb-2-247x329.jpg",
+			"description" : "Blusa com ótimo tecido, e muito confotável."
+		},
+		
+		{
+			"name" : "Camiseta Manga Longa",
+			"price" : "R$ 214.99",
+			"options" : [
+				{ "Tamanho" : "Pequeno,Medio,Grande" }
+			],
+			"image" : "https://orbsupply.com.br/wp-content/uploads/2021/02/orb-31-247x329.jpg",
+			"description" : "Camiseta de Manga Longa Preta, muito aconchegante e estilosa."
+		},
+		{
+			"name" : "Blusa Simples Preta",
+			"price" : "R$ 179.99",
+			"options" : [
+				{ "Tamanho" : "Pequeno,Medio,Grande" }
+			],
+			"image" : "https://orbsupply.com.br/wp-content/uploads/2021/02/orb-6-247x329.jpg",
+			"description" : "Blusa com ótimo tecido, e muito confotável."
+		}
+	]
+}
